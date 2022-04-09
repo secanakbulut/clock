@@ -1,0 +1,66 @@
+body {
+  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  background: #1c1c20;
+  color: #e6e6e6;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrap {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.analog svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.face {
+  fill: #25252a;
+  stroke: #3a3a40;
+  stroke-width: 2;
+}
+
+.tick {
+  stroke: #888;
+  stroke-width: 1.5;
+}
+
+.tick.big {
+  stroke: #ddd;
+  stroke-width: 2.5;
+}
+
+.hour {
+  stroke: #e6e6e6;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.minute {
+  stroke: #e6e6e6;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.second {
+  stroke: #d96f6f;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+.pin {
+  fill: #d96f6f;
+}

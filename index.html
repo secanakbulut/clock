@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>clock</h1>
+
+    <div id="analog" class="analog">
+      <svg viewBox="0 0 200 200" width="280" height="280">
+        <circle cx="100" cy="100" r="95" class="face" />
+        <g id="ticks"></g>
+        <line id="hourHand" x1="100" y1="100" x2="100" y2="55" class="hour" />
+        <line id="minuteHand" x1="100" y1="100" x2="100" y2="35" class="minute" />
+        <line id="secondHand" x1="100" y1="100" x2="100" y2="25" class="second" />
+        <circle cx="100" cy="100" r="3" class="pin" />
+      </svg>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

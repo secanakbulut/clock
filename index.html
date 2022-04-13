@@ -9,6 +9,10 @@
   <div class="wrap">
     <h1>clock</h1>
 
+    <div class="controls">
+      <button id="toggleMode">show digital</button>
+    </div>
+
     <div id="analog" class="analog">
       <svg viewBox="0 0 200 200" width="280" height="280">
         <circle cx="100" cy="100" r="95" class="face" />
@@ -18,6 +22,10 @@
         <line id="secondHand" x1="100" y1="100" x2="100" y2="25" class="second" />
         <circle cx="100" cy="100" r="3" class="pin" />
       </svg>
+    </div>
+
+    <div id="digital" class="digital hidden">
+      <div id="timeText">--:--:--</div>
     </div>
   </div>
 

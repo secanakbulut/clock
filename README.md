@@ -1,5 +1,10 @@
 # clock
 
+<p align="center">
+  <img src="docs/screenshot.png" width="48%"/>
+  <img src="docs/screenshot-2.png" width="48%"/>
+</p>
+
 analog and digital clock you can flip between. built this on a slow weekend.
 
 the analog face is an SVG, hands rotate using the usual angles:
